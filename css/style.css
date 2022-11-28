@@ -6,8 +6,9 @@
 }
 
 body{
+    width: 100vw;
     height: 100vh;
-    background: url(../imagens/Fundo08.jpg) no-repeat center;
+    background: url(../imagens/Fundo08.jpg) center;
     background-size: cover;
     font-family: 'Shadows Into Light', cursive;
 }
@@ -17,7 +18,6 @@ body{
     height: 100vh;
 }
 
-
 .container .image_perf{
     display: flex;
     justify-content: center;
@@ -26,6 +26,46 @@ body{
 
 .image_perf img{
     margin-top: 2rem;
+}
+
+img:hover{
+    transform: scale(1.4);
+    transition: 2s ease;
+}
+
+.conteudo{
+    width: 100vw;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    text-transform: uppercase;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.conteudo .conteudos{
+    display: flex;
+    position: relative;
+    border-style: solid;
+    color: white;
+    width: 500px;
+    height: 160px;
+    border-radius: 50px;
+    flex-direction: column;
+    background-color: black;
+    opacity: 70%;
+}
+
+.conteudos p{
+    display: flex;
+    position: relative;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .container .caption{
@@ -200,10 +240,11 @@ body{
 
 .rodape{
     display: block;
+    align-items: center;
     text-align: center;
     color: white;
     font-size: 20px;
-    margin-top: -50px;
+    margin-top: 10rem;
 }
 
 /*Inicio responsividade*/
