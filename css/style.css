@@ -111,6 +111,12 @@ body{
     color: white;
 }
 
+.portfolio:hover{
+    background-color: black;
+    content: '';
+    transition: all 1s ease;
+}
+
 .github{
     display: flex;
     width: 35rem;
@@ -130,6 +136,12 @@ body{
     color: rgb(16, 8, 24);
     justify-content: space-between;
     color: white;
+}
+
+.github:hover{
+    background-color: black;
+    content: '';
+    transition: all 1s ease;
 }
 
 .linkedin{
@@ -153,6 +165,12 @@ body{
     color: white;
 }
 
+.linkedin:hover{
+    background-color: black;
+    content: '';
+    transition: all 1s ease;
+}
+
 .instagram{
     display: flex;
     width: 35rem;
@@ -174,10 +192,21 @@ body{
     color: white;
 }
 
+.instagram:hover{
+    background-color: black;
+    content: '';
+    transition: all 1s ease;
+}
+
 .rodape{
     display: block;
     text-align: center;
     color: white;
     font-size: 20px;
     margin-top: -50px;
+}
+
+/*Inicio responsividade*/
+@media screen(max-width: 600px){
+    
 }
