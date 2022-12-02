@@ -269,15 +269,16 @@ img:hover{
     }
 
     .caption{
+        text-align: center;
         align-items: center;
-        margin-left: 190px;
+        margin-left: 185px;
     }
 
     .image_perf img{
         justify-content: center;
         align-items: center;
-        margin-left: 190px;
-        margin-top: 1rem;
+        margin-left: 185px;
+        margin-top: 1.4rem;
     }
     
     .contact{
@@ -293,7 +294,7 @@ img:hover{
     }
 
     .conteudos{
-        margin-left: 30px;
+        margin-left: 40px;
     }
 
     .container .links{
