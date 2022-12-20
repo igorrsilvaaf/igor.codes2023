@@ -44,6 +44,7 @@ img:hover{
     text-transform: uppercase;
     align-items: center;
     margin-top: 30px;
+    place-items: center;
 }
 
 .conteudo .conteudos{
@@ -57,6 +58,7 @@ img:hover{
     flex-direction: column;
     background-color: black;
     opacity: 70%;
+    place-items: center;
 }
 
 .conteudos p{
@@ -247,7 +249,7 @@ img:hover{
     margin-top: -2rem;
 }
 
-/*Inicio responsividade*/
+
 @media screen and (max-width:500px){
     /*MAX WIDTH =  Tela menor que alguma resoluçao*/
     body{
@@ -291,6 +293,7 @@ img:hover{
         display: block;
         flex-direction: column;
         width: 100%;
+        place-items: center;
     }
 
     .conteudos{
@@ -309,6 +312,7 @@ img:hover{
         flex-direction: column;
         justify-content: center;
         margin-left: 95px;
+        place-items: center;
     }
 
     .rodape{
