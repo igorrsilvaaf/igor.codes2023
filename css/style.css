@@ -264,7 +264,7 @@ img{
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:767px) and (max-width: 1023px){
     /*MAX WIDTH =  Tela menor que alguma resoluçao*/
     body{
         width: 100vw;
