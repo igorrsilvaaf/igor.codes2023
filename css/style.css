@@ -34,9 +34,9 @@ img:hover{
 }
 
 img{
-    --s:250px;
-    --b: 8px;
-    --g:15px;
+    --s:210px;
+    --b: 3px;
+    --g:1px;
     --c: #ffff;
 
     width: var(--s);
@@ -108,6 +108,15 @@ img{
     justify-content: center;
     align-items: center;
     color: white;
+    transition: 2s;
+}
+
+.contact .email:hover{
+    color: #18181A;
+}
+
+.contact .wpp:hover{
+    color: #18181A;
 }
 
 .contact .email{
