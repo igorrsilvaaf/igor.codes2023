@@ -8,7 +8,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: url(../imagens/Fundo08.jpg) center;
+    background: url(../imagens/Fundo9.jpg) center no-repeat;
     background-size: cover;
     font-family: 'Shadows Into Light', cursive;
 }
@@ -34,15 +34,15 @@ img:hover{
 }
 
 img{
-    --s:210px;
-    --b: 3px;
+    --s:210px; /*tamnho da img*/
+    --b: 1px; /*Borda*/
     --g:1px;
     --c: #ffff;
 
     width: var(--s);
     aspect-ratio: 1;
-    outline: calc(var(--s)/2) solid #0009;
-    outline-offset: calc(var(--s)/-2);
+    outline: calc(var(--s)/2) solid #0004;
+    outline-offset: calc(var(--s)/-1);
     transition: 0.3s;
     border-radius: 50%;
 }
@@ -70,8 +70,8 @@ img{
     height: 160px;
     border-radius: 50px;
     flex-direction: column;
-    background-color: black;
-    opacity: 70%;
+    background-color: #1D2321;
+    opacity: 80%;
     place-items: center;
 }
 
@@ -112,11 +112,11 @@ img{
 }
 
 .contact .email:hover{
-    color: #18181A;
+    color: #A5E0FD;
 }
 
 .contact .wpp:hover{
-    color: #18181A;
+    color: #A5E0FD;
 }
 
 .contact .email{
@@ -153,13 +153,14 @@ img{
     text-transform: uppercase;
     justify-content: center;
     align-items: center;
+    opacity: 80%;
 }
 
 .portfolio{
     display: flex;
     width: 35rem;
     height: 3rem;
-    background-color: rgba(22, 20, 20, 0.851);
+    background-color: /*rgba(22, 20, 20, 0.851);*/ #1D2321;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
@@ -186,7 +187,7 @@ img{
     display: flex;
     width: 35rem;
     height: 3rem;
-    background-color: rgba(22, 20, 20, 0.851);
+     background-color: /*rgba(22, 20, 20, 0.851);*/ #1D2321;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
@@ -213,7 +214,7 @@ img{
     display: flex;
     width: 35rem;
     height: 3rem;
-    background-color: rgba(22, 20, 20, 0.851);
+    background-color: /*rgba(22, 20, 20, 0.851);*/ #1D2321;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
@@ -240,7 +241,7 @@ img{
     display: flex;
     width: 35rem;
     height: 3rem;
-    background-color: rgba(22, 20, 20, 0.851);
+    background-color: /*rgba(22, 20, 20, 0.851);*/ #1D2321;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
