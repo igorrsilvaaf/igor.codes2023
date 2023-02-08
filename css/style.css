@@ -29,6 +29,10 @@ body{
     height: 100%;
 }
 
+.header{
+    position: relative;
+}
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -46,9 +50,11 @@ body{
 }
 
 img{
-    --s:210px; /*tamnho da img*/
+    width: 180px;
+}
 
-    width: var(--s);
+.caption a{
+    margin-bottom: 30px;
 }
 
 .conteudo{
@@ -61,7 +67,7 @@ img{
     font-weight: 900;
     text-transform: uppercase;
     align-items: center;
-    margin-top: -30px;
+    margin-top: 3px;
     place-items: center;
 }
 
@@ -74,7 +80,7 @@ img{
     height: 160px;
     border-radius: 50px;
     flex-direction: column;
-    background-color: #45acec6c;
+    background-color: #1f365234;;
     place-items: center;
 }
 
@@ -163,7 +169,7 @@ img{
     display: flex;
     width: 35rem;
     height: 3rem;
-    background-color: #45acec6c;
+    background-color: #1f365234;;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
@@ -190,7 +196,7 @@ img{
     display: flex;
     width: 35rem;
     height: 3rem;
-     background-color: #45acec6c;
+     background-color: #1f365234;;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
@@ -217,7 +223,7 @@ img{
     display: flex;
     width: 35rem;
     height: 3rem;
-    background-color: #45acec6c;
+    background-color: #1f365234;;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
@@ -244,7 +250,7 @@ img{
     display: flex;
     width: 35rem;
     height: 3rem;
-    background-color: #45acec6c;
+    background-color: #1f365234;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
@@ -278,74 +284,93 @@ img{
 }
 
 
-@media screen and (max-width:767px) and (max-width: 1023px){
-    /*MAX WIDTH =  Tela menor que alguma resoluçao*/
-    body{
-        width: 100vw;
-        height: 100vh;
-        background: url(../imagens/Fundo08.jpg) center;
-        background-size: cover;
+@media screen and (max-width:500px){ /*MAX WIDTH =  Tela menor que alguma resoluçao*/
+    img{
+        width: 120px;
     }
 
-     .container{
-        width: 100%;
-        height: 100%;
+    .caption a{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
-
-    .header{
-        flex-wrap: wrap;
+    .conteudo .conteudos{
+        width: 90%;
         align-items: center;
-        width: 100%;
-    }
-
-    .caption{
-        text-align: center;
-        align-items: center;
-        margin-left: 185px;
-    }
-
-    .image_perf img{
-        justify-content: center;
-        align-items: center;
-        margin-left: 185px;
-        margin-top: 1.4rem;
-        border-radius: 50%;
-    }
-    
-    .contact{
-        flex-direction: row;
-        align-items: center;
-        margin-left: 80px;
-    }
-
-    .conteudo{
-        display: block;
-        flex-direction: column;
-        width: 100%;
-        place-items: center;
     }
 
     .conteudos{
-        margin-left: 40px;
+        font-size: 11px;
     }
 
-    .container .links{
-        width: 100vw;
-        display: flex;
-    } 
+    .links .portfolio{
+        width: 350px;
+        height: 40px;
+    }
 
-    .links{
-        display: flex;
-        position: relative;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 95px;
-        place-items: center;
+    .links .github{
+        width: 350px;
+        height: 40px;
+    }
+
+    .links .linkedin{
+        width: 350px;
+        height: 40px;
+    }
+
+    .links .instagram{
+        width: 350px;
+        height: 40px;
     }
 
     .rodape{
-        margin-top: 190px;
-        margin-left: 90px;
+        margin-top: 10px;
     }
+
+}
+
+@media screen and (max-width:300px){ /*MAX WIDTH =  Tela menor que alguma resoluçao*/
+    img{
+        width: 120px;
+    }
+
+    .caption a{
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .conteudo .conteudos{
+        width: 98%;
+        align-items: center;
+    }
+
+    .conteudos{
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .links .portfolio{
+        width: 250px;
+        height: 30px;
+    }
+
+    .links .github{
+        width: 250px;
+        height: 30px;
+    }
+
+    .links .linkedin{
+        width: 250px;
+        height: 30px;
+    }
+
+    .links .instagram{
+        width: 250px;
+        height: 30px;
+    }
+
+    .rodape{
+        margin-top: 10px;
+    }
+
 }
