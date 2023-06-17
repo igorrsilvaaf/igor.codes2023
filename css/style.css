@@ -8,8 +8,6 @@
 body{
     width: 100vw;
     height: 100vh;
-    /* background: url(../imagens/Fundo9.jpg) center no-repeat; */
-    /* background-size: cover; */
     font-family: 'Shadows Into Light', cursive;
 }
 
@@ -75,7 +73,7 @@ img{
     display: flex;
     position: relative;
     border-style: solid;
-    color: #a5e0fda4;
+    color: #082736a4;
     width: 500px;
     height: 160px;
     border-radius: 50px;
@@ -174,7 +172,7 @@ img{
     justify-content: center;
     border-radius: 10px;
     border-style: solid;
-    border-color: white;
+    border-color: #082736a4;
     margin: 10px;
     color: white;
 }
@@ -201,7 +199,7 @@ img{
     justify-content: center;
     border-radius: 10px;
     border-style: solid;
-    border-color: white;
+    border-color: #082736a4;
     margin: 10px;
     color: white;
 }
@@ -228,7 +226,7 @@ img{
     justify-content: center;
     border-radius: 10px;
     border-style: solid;
-    border-color: white;
+    border-color: #082736a4;
     margin: 10px;
     color: white;
 }
@@ -255,7 +253,7 @@ img{
     justify-content: center;
     border-radius: 10px;
     border-style: solid;
-    border-color: white;
+    border-color: #082736a4;
     margin: 10px;
     color: white;
 }
