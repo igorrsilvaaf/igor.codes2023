@@ -5,6 +5,10 @@
     padding:0;
 }
 
+.container{
+    max-width: 1440px;
+}
+
 body{
     width: 100vw;
     height: 100vh;
@@ -282,18 +286,19 @@ img{
 }
 
 
-@media screen and (max-width:500px){ /*MAX WIDTH =  Tela menor que alguma resoluçao*/
+@media screen and (max-width:768px){
     img{
         width: 120px;
     }
 
     .caption a{
-        font-size: 14px;
+        font-size: 20px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    
     .conteudo .conteudos{
-        width: 90%;
+        width: 95%;
         align-items: center;
     }
 
@@ -303,72 +308,26 @@ img{
 
     .links .portfolio{
         width: 350px;
-        height: 40px;
-    }
-
-    .links .github{
-        width: 350px;
-        height: 40px;
-    }
-
-    .links .linkedin{
-        width: 350px;
-        height: 40px;
-    }
-
-    .links .instagram{
-        width: 350px;
-        height: 40px;
-    }
-
-    .rodape{
-        margin-top: 10px;
-    }
-
-}
-
-@media screen and (max-width:300px){ /*MAX WIDTH =  Tela menor que alguma resoluçao*/
-    img{
-        width: 120px;
-    }
-
-    .caption a{
-        font-size: 12px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .conteudo .conteudos{
-        width: 98%;
-        align-items: center;
-    }
-
-    .conteudos{
-        font-size: 9px;
-        text-align: center;
-    }
-
-    .links .portfolio{
-        width: 250px;
         height: 30px;
     }
 
     .links .github{
-        width: 250px;
+        width: 350px;
         height: 30px;
     }
 
     .links .linkedin{
-        width: 250px;
+        width: 350px;
         height: 30px;
     }
 
     .links .instagram{
-        width: 250px;
+        width: 350px;
         height: 30px;
     }
 
     .rodape{
-        margin-top: 10px;
+        display: none;
     }
 
 }
